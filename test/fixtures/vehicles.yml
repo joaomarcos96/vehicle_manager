@@ -1,0 +1,6 @@
+fiat_uno:
+  make: 'Fiat'
+  model: 'Uno'
+  year: 2009
+  description: 'Fiat Uno car'
+  sold: true
