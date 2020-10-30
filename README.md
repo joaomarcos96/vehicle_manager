@@ -1,24 +1,19 @@
-# README
+# Vehicle Manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Vehicle Manager is a REST API to manage vehicles.
 
-Things you may want to cover:
+## Getting started
 
-* Ruby version
+Run the commands below to get the app up and running
 
-* System dependencies
+* Install the dependencies
 
-* Configuration
+        $ bundle install
 
-* Database creation
+* Setup the database
 
-* Database initialization
+        $ rake db:setup
 
-* How to run the test suite
+* Run the app
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+        $ rails server
