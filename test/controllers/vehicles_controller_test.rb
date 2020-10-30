@@ -24,7 +24,7 @@ class VehiclesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should update vehicle' do
-    patch vehicle_url @vehicle, params: params
+    put vehicle_url @vehicle, params: params
     assert_response :ok
   end
 
